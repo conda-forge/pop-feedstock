@@ -1,5 +1,5 @@
 {% set name = "pop" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/charmbracelet/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 365b989dcd0c45256e304ddd8e7a4be8ac146ed24a5751930259c56c23a16dec
+  sha256: 7f95a631ad84af09c9ba076348db92f4af5428087c3d03f6fc828b4c1c0084c7
 
 build:
   number: 0
